@@ -1,0 +1,34 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content{
+    height: 100%;
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column;
+
+}
+.content-picture{
+    border: 3px solid green;
+    border-radius: 5px;
+
+}
+.picture-place{
+
+}
+.getPicture-btn{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    width: 100px;
+}
