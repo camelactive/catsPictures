@@ -5,7 +5,7 @@ async function getPicture(){
     const answer = await fetch(urlCats)
     const data = await answer.json()
     content_picture.innerHTML = 
-    `<img = src="${data[0].url}">
+    `<img class="content_picture_img" src="${data[0].url}">
     `
 }
 getPicture()

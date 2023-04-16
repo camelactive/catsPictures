@@ -13,7 +13,6 @@ body{
 .content{
     height: 100%;
     display: flex;
- 
     align-items: center;
     flex-direction: column;
 
@@ -21,11 +20,13 @@ body{
 .content-picture{
     border: 3px solid green;
     border-radius: 5px;
-
 }
-.picture-place{
-
+.content_picture_img{
+    max-height: 80vh; 
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .getPicture-btn{
     width: 200px;
     height: 30px;
